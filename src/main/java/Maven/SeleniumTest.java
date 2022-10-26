@@ -8,8 +8,11 @@ public class SeleniumTest
 //     <artifactId>maven-surefire-plugin</artifactId>
 //     <version>2.22.1</version>
 //   </plugin>
-	
-	
+	@Test
+	public void getname()
+	{
+		System.out.println("name");
+	}
 	@Test
 	public void testSelenium()
 	{
